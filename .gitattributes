@@ -1,20 +1,17 @@
 # Unity LFS 配置
-
 # 图像文件
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.jpeg filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
 *.tga filter=lfs diff=lfs merge=lfs -text
 *.exr filter=lfs diff=lfs merge=lfs -text
-
 # 3D模型
 *.fbx filter=lfs diff=lfs merge=lfs -text
-
 # Unity特定
 *.asset filter=lfs diff=lfs merge=lfs -text
 *.unitypackage filter=lfs diff=lfs merge=lfs -text
-
 # 特定大文件
 Assets/01_Models/Character/chappie/chappie.fbx filter=lfs diff=lfs merge=lfs -text
 "Assets/06_UI/Fonts/DENGB SDF.asset" filter=lfs diff=lfs merge=lfs -text
 Assets/06_UI/Fonts/msyh.asset filter=lfs diff=lfs merge=lfs -text
+Assets/06_UI/Fonts/DENGB[[:space:]]SDF.asset filter=lfs diff=lfs merge=lfs -text
