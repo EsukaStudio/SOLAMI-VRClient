@@ -46,9 +46,13 @@ The 3D assets used in this project are sourced from Sketchfab and Vroid. These a
 - [Chappie Blender Rig Free](https://sketchfab.com/3d-models/chappie-blender-rig-free-fc2424ff8ab840ac907d38dc073d1327)
 
 ## License and Usage Notices
-In this repository, we provide code for raw data preprocessing, multimodal data synthesis, SOLAMI model training, model evaluation, VR Unity client and server code for community reference. Considering that we used some company internal data to train the models in the original paper, we are not open-sourcing the raw data and trained models. Users can use their own collected data to train their deployable models on advanced end-to-end multimodal models.
+This project is released under the MIT License, allowing for both personal and commercial use with proper attribution.
 
-Usage and License Notices: This project utilizes certain datasets, 3D assets, and checkpoints that are subject to their respective original licenses. Users must comply with all terms and conditions of these original licenses, including but not limited to the OpenAI Terms of Use for generating synthetic data scripts, Llama community license for foundation language models, SMPL-X for original motion format, and HumanML3D, Inter-X, DLP-MoCap, Anyinstruct, commonVoice for data generation and model training. This project does not impose any additional constraints beyond those stipulated in the original licenses. Furthermore, users are reminded to ensure that their use of the dataset and checkpoints is in compliance with all applicable laws and regulations.
+The SOLAMI-UnityClient utilizes [SMPL-X](https://smpl-x.is.tue.mpg.de/) for representing human motion and poses. Users must comply with the original license terms of SMPL-X when using this component.
+
+The 3D assets included in this project are subject to their respective original licenses as mentioned in the Intellectual Property Statement section. These assets should not be used for commercial purposes without obtaining proper permissions from their original creators.
+
+This code repository is provided for research and development purposes. Users are reminded to ensure that their use of the code and included assets complies with all applicable laws and regulations.
 
 ## Citation
 
