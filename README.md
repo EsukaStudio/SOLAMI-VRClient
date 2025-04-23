@@ -16,6 +16,15 @@ The VR client visualizes the following capabilities of SOLAMI:
 - Execution of motion commands
 - Engagement in interactive tasks with users
 
+## System Requirements
+
+- **Operating System**: Windows 10/11
+- **VR Headset**: Meta Quest 2/3/Pro or other compatible OpenXR headsets
+- **Unity Version**: 2022.3.59f1 or later
+- **Additional Requirements**: 
+  - SOLAMI server running for backend processing
+  - Sufficient storage space for 3D assets
+
 ## Installation Guide
 This project is developed using Unity 2022.3.59f1. The project requires several Unity Packages and Nuget Packages. Please install them in the following order:
 
@@ -26,17 +35,8 @@ This project is developed using Unity 2022.3.59f1. The project requires several 
 5. StackExchange.Redis 2.1.58 (NuGet Package)
 6. WebSocketSharp-netstandard 1.0.1 (NuGet Package)
 
-## System Requirements
-
-- **Operating System**: Windows 10/11
-- **VR Headset**: Meta Quest 2/3/Pro or other compatible OpenXR headsets
-- **Unity Version**: 2022.3.59f1 or later
-- **Additional Requirements**: 
-  - SOLAMI server running for backend processing
-  - Sufficient storage space for 3D assets
-
 ## Intellectual Property Statement
-The 3D assets used in this project are sourced from Sketchfab and Vroid. These assets have been modified to fit the project's needs. Please note that these assets should not be used for commercial purposes. The original assets can be found at:
+The 3D assets used in this project are sourced from Sketchfab and Vroid. These assets have been modified to fit the project's needs. The original assets can be found at:
 
 - [Late #cuterobotchallenge](https://sketchfab.com/3d-models/late-cuterobotchallenge-cb2a7911a5f243dcbe8480946a3bd5fe)
 - [Batman Ben Affleck from The Flash 2023](https://sketchfab.com/3d-models/batman-ben-affleck-from-the-flash-2023-33ca17095d3148218958b8f39c8efe64)
@@ -46,11 +46,14 @@ The 3D assets used in this project are sourced from Sketchfab and Vroid. These a
 - [Chappie Blender Rig Free](https://sketchfab.com/3d-models/chappie-blender-rig-free-fc2424ff8ab840ac907d38dc073d1327)
 
 ## License and Usage Notices
-This project is released under the MIT License, allowing for both personal and commercial use with proper attribution.
+This project's code is released under the MIT License, allowing for both personal and commercial use with proper attribution.
+
+The 3D assets sourced from Sketchfab are licensed under CC BY 4.0. According to this license, you may use these assets for any purpose (including commercial) provided you:
+- Give appropriate credit to the original creators (links to original models are provided in the Intellectual Property Statement section)
+- Provide a link to the CC BY 4.0 license (https://creativecommons.org/licenses/by/4.0/)
+- Indicate if changes were made to the original models
 
 The SOLAMI-UnityClient utilizes [SMPL-X](https://smpl-x.is.tue.mpg.de/) for representing human motion and poses. Users must comply with the original license terms of SMPL-X when using this component.
-
-The 3D assets included in this project are subject to their respective original licenses as mentioned in the Intellectual Property Statement section. These assets should not be used for commercial purposes without obtaining proper permissions from their original creators.
 
 This code repository is provided for research and development purposes. Users are reminded to ensure that their use of the code and included assets complies with all applicable laws and regulations.
 
