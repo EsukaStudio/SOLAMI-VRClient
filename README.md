@@ -1,4 +1,4 @@
-# SOLAMI-UnityClient
+# SOLAMI-VRClient
 
 <div align="center">
     <a href="https://solami-ai.github.io/" class="button"><b>[Homepage]</b></a> &nbsp;&nbsp;&nbsp;&nbsp;
@@ -53,7 +53,7 @@ The 3D assets sourced from Sketchfab are licensed under CC BY 4.0. According to 
 - Provide a link to the CC BY 4.0 license (https://creativecommons.org/licenses/by/4.0/)
 - Indicate if changes were made to the original models
 
-The SOLAMI-UnityClient utilizes [SMPL-X](https://smpl-x.is.tue.mpg.de/) for representing human motion and poses. Users must comply with the original license terms of SMPL-X when using this component.
+The SOLAMI-VRClient utilizes [SMPL-X](https://smpl-x.is.tue.mpg.de/) for representing human motion and poses. Users must comply with the original license terms of SMPL-X when using this component.
 
 This code repository is provided for research and development purposes. Users are reminded to ensure that their use of the code and included assets complies with all applicable laws and regulations.
 
@@ -78,4 +78,4 @@ If you find this project useful in your research, please consider citing:
 ```
 
 ## Acknowledgement
-Our SOLAMI-UnityClient is the VR client implementation for the SOLAMI framework. The core SOLAMI implementation is based on [AnyGPT](https://github.com/OpenMOSS/AnyGPT), [HumanTOMATO](https://github.com/IDEA-Research/HumanTOMATO), and [MotionGPT](https://github.com/OpenMotionLab/MotionGPT).
+Our SOLAMI-VRClient is the VR client implementation for the SOLAMI framework. The core SOLAMI implementation is based on [AnyGPT](https://github.com/OpenMOSS/AnyGPT), [HumanTOMATO](https://github.com/IDEA-Research/HumanTOMATO), and [MotionGPT](https://github.com/OpenMotionLab/MotionGPT).
